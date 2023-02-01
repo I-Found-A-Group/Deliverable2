@@ -21,7 +21,7 @@ base= ggplot(data = council,
              aes(x = Councilmember,
                  y = Age))
 plot1 = base +  geom_segment(aes(x = Councilmember, xend = Councilmember, y = Age, yend = 35),  color="darkgrey")+
-  geom_point(size=3, color="blue") +
+  geom_point(size=3, color="green") +
                ylim(30,70)
 plot1
 ```
